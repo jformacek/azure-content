@@ -23,7 +23,7 @@ Review the [ExpressRoute circuits and routing domains](expressroute-circuit-peer
 
 ## NAT requirements for Azure public peering
 
-The Azure public peering path enables you to connect to all services hosted in Azure over their public IP addresses. These include services all services listed in the [ExpessRoute FAQ](expressroute-faqs.md) and any services hosted by ISVs on Microsoft Azure. Connectivity to Microsoft Azure services on public peering is always initiated from your network into the Microsoft network. Traffic destined to Microsoft Azure on public peering must be SNATed to valid public IPv4 addresses before they enter the Microsoft network. The figure below provides a high-level picture of how the NAT could be set up to meet the above requirement.
+The Azure public peering path enables you to connect to all services hosted in Azure over their public IP addresses. These include all services listed in the [ExpessRoute FAQ](expressroute-faqs.md) and any services hosted by ISVs on Microsoft Azure. Connectivity to Microsoft Azure services on public peering is always initiated from your network into the Microsoft network. Traffic destined to Microsoft Azure on public peering must be SNATed to valid public IPv4 addresses before they enter the Microsoft network. The figure below provides a high-level picture of how the NAT could be set up to meet the above requirement.
 
 ![](./media/expressroute-nat/expressroute-nat-azure-public.png) 
 
